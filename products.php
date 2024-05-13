@@ -3,7 +3,7 @@
 ?>
 <div class="row">
     <div class="col-12">
-        <h2 class="text-center">Hier komen alle producten</h2>
+        <h2 class="text-center">Producten</h2>
     </div>
     <div class="col-4 mb-3">
         <div class="card w-100">

@@ -9,13 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?=BASEURL;?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo BASEURL;?>assets/css/style.css">
-    <title>Webshop met een leuke naam</title>
+    <title>Chris Supss</title>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Home</a>
                 <ul class="nav nav-pills">
                     <li class="nav-item">
                         <a class="nav-link" href="#scrollspyHeading1">First</a>
