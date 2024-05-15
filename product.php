@@ -30,7 +30,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
                                 <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Spieropbouw</span>
                                     <h5 class="text-uppercase"><?php echo $row["titel"]; ?></h5>
                                     <div class="price d-flex flex-row align-items-center">
-                                        <span class="act-price">$<?php echo $row["prijs"]; ?></span>
+                                        <span class="act-price">€<?php echo $row["prijs"]; ?></span>
                                     </div>
                                 </div>
                                 <p class="about"><?php echo $row["beschrijving"]; ?></p>

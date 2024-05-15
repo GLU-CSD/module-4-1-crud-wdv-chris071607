@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
             <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand" href="/module-4-1-crud-wdv-chris071607/">Home</a>
                 <ul class="nav nav-pills">
                     <li class="nav-item">
                         <a class="nav-link" href="#scrollspyHeading1">First</a>
