@@ -1,14 +1,12 @@
 <?php
     include('../core/header.php');
+    include('../core/checklogin_admin.php');
 ?>
-<div class="row">
-
-
-<table class="table">
+<table border="1">
     <tr>
-        <th>ID2</th>
-        <th>EMAIL2</th>
-        <th>DATETIME2</th>
+        <td>ID2</td>
+        <td>EMAIL2</td>
+        <td>DATETIME2</td>
     </tr>
 <?php
     $sql = "SELECT admin_user_id, email, datetime FROM admin_user;";
@@ -36,7 +34,6 @@
     }
 ?>
 </table>
-</div>
 <?php
     include('../core/footer.php');
 ?>

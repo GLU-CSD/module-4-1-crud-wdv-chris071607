@@ -18,7 +18,7 @@
             <div class="btn-group" role="group">
                 <div><a href="/module-4-1-crud-wdv-chris071607/admin/" class="btn btn-primary" >CMS Home</a></div>
                 <div><a href="<?=BASEURL_CMS;?>users/" class="btn btn-primary">Users</a></div>
-                <div><a href="<?=BASEURL_CMS;?>orders/" class="btn btn-primary">Order</a></div>
+                <div><a href="<?=BASEURL_CMS;?>orders/" class="btn btn-primary">Orders</a></div>
                 <div><a href="<?=BASEURL_CMS;?>producten" class="btn btn-primary">Products</a></div>
             </div>
         </div>
