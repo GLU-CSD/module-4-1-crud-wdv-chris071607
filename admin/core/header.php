@@ -1,5 +1,5 @@
 <?php
-    include($_SERVER['DOCUMENT_ROOT'].'/webdev-base/core/db_connect.php');
+    include($_SERVER['DOCUMENT_ROOT'].'/module-4-1-crud-wdv-chris071607/core/db_connect.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -25,7 +25,7 @@ if ($con -> connect_errno) {
 }
 
 define("BASEURL","http://localhost/module-4-1-crud-wdv-chris071607/");
-define("BASEURL_CMS","http://localhost/module-4-1-crud-wdv-chris0716 07/admin/");
+define("BASEURL_CMS","http://localhost/module-4-1-crud-wdv-chris071607/admin/");
 
 function prettyDump ( $var ) {
     echo "<pre>";
