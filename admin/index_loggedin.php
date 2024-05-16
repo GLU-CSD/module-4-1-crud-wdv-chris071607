@@ -5,7 +5,8 @@
 <ul>
     <li><a href="users/">Gebruikers</a></li>
     <li><a href="orders/">Bestellingen</a></li>
-    <li><a href="producten">Producten</a></li>
+    <li><a href="producten/">Producten</a></li>
+    <li><a href="blog">Blog</a></li>
 </ul>
 <?php
     include('core/footer.php');

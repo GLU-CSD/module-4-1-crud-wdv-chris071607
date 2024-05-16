@@ -4,9 +4,9 @@
 ?>
 <table border="1">
     <tr>
-        <td>ID2</td>
-        <td>EMAIL2</td>
-        <td>DATETIME2</td>
+        <td>ID</td>
+        <td>EMAIL</td>
+        <td>DATETIME</td>
     </tr>
 <?php
     $sql = "SELECT admin_user_id, email, datetime FROM admin_user;";
