@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Voor de MAC gebruikers;
  */

@@ -8,5 +8,7 @@ if (!isset($_SESSION['Sadmin_id']) || $_SESSION['Sadmin_id'] == "" || $_SESSION[
 
 if ($loginError)
 {
-	exit('Sessie verlopen<meta http-equiv="refresh" content="2; URL='.BASEURL_CMS.'index.php">');
+	echo $_SESSION['Sadmin_id'];
+	$_SESSION['Sadmin_email'];
+	// exit('Sessie verlopen<meta http-equiv="refresh" content="0; URL='.BASEURL_CMS.'index.php">');
 }

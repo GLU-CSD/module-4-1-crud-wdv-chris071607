@@ -16,16 +16,17 @@
             if($liqry->execute()){
                 $liqry->store_result();
                 $liqry->fetch();
-                if($liqry->num_rows == '1' && password_verify($password,$dbHashPassword)){
+                if($liqry->num_rows > 0 && password_verify($password,$dbHashPassword)){
                     $_SESSION['Sadmin_id'] = $adminId;
                     $_SESSION['Sadmin_email'] = stripslashes($email);
                     echo "Bezig met inloggen... <meta http-equiv=\"refresh\" content=\"1; URL=index_loggedin.php\">";
                     exit();
                 } else {
                     echo "ERROR tijdens inloggen";
-                }
-            }
+            } 
+
             $liqry->close();
+            }
         }
     }
 ?>
