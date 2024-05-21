@@ -22,3 +22,6 @@ Maak een database naam aan en zet in het bestand **core/db_connect.php**
 - ***functions***
     - Hier komen de _functions_ van de webshop in te staan. Denk hierbij aan het ophalen van producten of het plaatsen van een bestelling.
 
+## Login CMS
+email: test@test.nl
+pass: test123
