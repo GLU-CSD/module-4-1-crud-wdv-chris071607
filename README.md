@@ -27,6 +27,5 @@ link: http://localhost/module-4-1-crud-wdv-chris071607/admin/
 email: test@test.nl
 pass: test123
 
-## Login CMS
-email: test@test.nl
-pass: test123
+## Database
+database/webshop.sql
